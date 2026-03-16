@@ -235,4 +235,6 @@ button:hover{
     padding: 5px 5px;
     margin-top: 177px;
     box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
 }
