@@ -118,6 +118,13 @@ button:hover{
     /* border-radius: 50%; */
     width: 50px;
 }
+#wip-logo2{
+    position: absolute;
+    top: 80px;
+    left: 900px;
+    /* border-radius: 50%; */
+    width: 50px;
+}
 
 #main-window-top{
     width: 1026px;
