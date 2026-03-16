@@ -1,0 +1,375 @@
+/* Window Start */
+html {
+    background-color: #008081;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 32px;
+    position: relative;
+    right: 60px;
+    width: fit-content;
+    color: white;
+    z-index: 1;
+    /* border: 2px solid black; */
+}
+
+#page-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 10%;
+    gap: 40px;
+}
+
+#top-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+#main-window-full {
+    zoom: 90%;
+    width: fit-content;
+    height: 670px;
+    flex-shrink: 0;
+    position: relative;
+    left: 11%;
+}
+
+#main-window-top {
+    width: 700px;
+    height: 70px;
+    background-color: #c3c3c3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-window-header {
+    display: flex;
+    width: 670px;
+    padding: 5px;
+    background-color: #0827f5;
+    justify-content: end;
+    max-height: 45px;
+    align-items: center;
+}
+
+.main-window-sides {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+}
+
+.main-window-right-left {
+    width: 20px;
+    height: 604px;
+    background-color: #c3c3c3;
+}
+
+#main-window-bottom {
+    width: 700px;
+    height: 10px;
+    background-color: #c3c3c3;
+}
+
+#main-image {
+    position: relative;
+    left: 20px;
+    bottom: 616px;
+    width: 660px;
+    margin: 0;
+}
+
+/* Pixel art buttons */
+#x-button {
+    left: 5px;
+    background-color: black;
+    box-shadow: 5px 5px black, 10px 10px black, 15px 15px black,
+        20px 20px black, 25px 25px black, 30px 30px black,
+        30px 0px black, 25px 5px black, 20px 10px black,
+        10px 20px black, 5px 25px black, 0px 30px black;
+}
+
+#maximize-button {
+    left: 5px;
+    background-color: black;
+    box-shadow: 5px 0px black, 10px 0px black, 15px 0px black, 20px 0px black, 25px 0px black, 30px 0px black,
+        0px 5px black, 5px 5px black, 10px 5px black, 15px 5px black, 20px 5px black, 25px 5px black, 30px 5px black,
+        0px 10px black, 0px 15px black, 0px 20px black, 0px 25px black, 0px 30px black,
+        5px 30px black, 10px 30px black, 15px 30px black, 20px 30px black, 25px 30px black, 30px 30px black,
+        30px 25px black, 30px 20px black, 30px 15px black, 30px 10px black;
+}
+
+#minimize-button {
+    left: 5px;
+    box-shadow: 5px 30px black, 10px 30px black, 15px 30px black, 20px 30px black, 25px 30px black,
+        5px 25px black, 10px 25px black, 15px 25px black, 20px 25px black, 25px 25px black;
+}
+
+#button-background {
+    width: 45px;
+    height: 45px;
+    background-color: #c3c3c3;
+    position: relative;
+}
+
+#button-background2 {
+    width: 45px;
+    height: 45px;
+    background-color: #c3c3c3;
+    position: relative;
+    right: 10px;
+}
+
+#button-background3 {
+    width: 45px;
+    height: 45px;
+    background-color: #c3c3c3;
+    position: relative;
+    right: 20px;
+}
+
+.button-all {
+    position: relative;
+    height: 5px;
+    width: 5px;
+    top: 5px;
+    scale: 97%;
+}
+/* Window End */
+
+/* Blurb */
+#blurb-and-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#hyperlink {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100px;
+    font-size: 24px;
+    padding: 10px;
+}
+
+#blurb {
+    width: 450px;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Tech */
+#tech-info {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+#tech-image-list {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 680px;
+}
+
+#react-logo {
+    width: 110px;
+}
+
+.tech-image-master {
+    width: 100px;
+    height: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.tech-image-and-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.tech-name {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* Other Projects */
+#other-projects-container {
+    width: fit-content;
+}
+
+#other-projects-list {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.button-link {
+    padding: 10px;
+}
+
+.other-projects-image-container {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.other-projects-image {
+    height: 250px;
+    padding: 10px;
+}
+
+.image-text {
+    font-size: 18px;
+    padding-bottom: 2px;
+}
+
+a {
+    text-decoration: none;
+    transition: transform 0.8s ease-out;
+}
+a:hover{
+    transform: scale(0.88);
+}
+
+#hyperlink{
+    width:120px;
+}
+
+#try-it-button{
+    font-size: 24px;
+}
+
+/* Footer */
+#footer {
+    background-color: #c3c3c3;
+    color: black;
+    font-size: 20px;
+    width: 100%;
+    padding: 5px 5px;
+    margin-top: 40px;
+    box-sizing: border-box;
+}
+
+/* Win98 Windows */
+.win98-window-blurb {
+    background-color: #c3c3c3;
+    padding: 4px;
+    width: 500px;
+    position: relative;
+    left: 14%;
+}
+
+.win98-window-tech {
+    background-color: #c3c3c3;
+    padding: 4px;
+    width: 750px;
+    position: relative;
+    left: 27%;
+}
+
+.win98-window-other {
+    background-color: #c3c3c3;
+    padding: 4px;
+    width: fit-content;
+    position: relative;
+    left: -3%;
+}
+
+.win98-titlebar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0827f5;
+    padding: 4px 6px;
+    height: 45px;
+}
+
+.win98-title {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0;
+    position: static;
+    right: unset;
+}
+
+.win98-buttons {
+    display: flex;
+    gap: 4px;
+}
+
+.win98-btn-bg {
+    width: 45px;
+    height: 45px;
+    background-color: #c3c3c3;
+    position: relative;
+}
+
+.win98-btn {
+    position: relative;
+    height: 5px;
+    width: 5px;
+    top: 5px;
+    left: 5px;
+    scale: 97%;
+}
+
+.x-btn {
+    background-color: black;
+    box-shadow:
+        5px 5px black, 10px 10px black, 15px 15px black,
+        20px 20px black, 25px 25px black, 30px 30px black,
+        30px 0px black, 25px 5px black, 20px 10px black,
+        10px 20px black, 5px 25px black, 0px 30px black;
+}
+
+.maximize-btn {
+    background-color: black;
+    box-shadow:
+        5px 0px black, 10px 0px black, 15px 0px black, 20px 0px black, 25px 0px black, 30px 0px black,
+        0px 5px black, 5px 5px black, 10px 5px black, 15px 5px black, 20px 5px black, 25px 5px black, 30px 5px black,
+        0px 10px black, 0px 15px black, 0px 20px black, 0px 25px black, 0px 30px black,
+        5px 30px black, 10px 30px black, 15px 30px black, 20px 30px black, 25px 30px black, 30px 30px black,
+        30px 25px black, 30px 20px black, 30px 15px black, 30px 10px black;
+}
+
+.minimize-btn {
+    box-shadow:
+        5px 30px black, 10px 30px black, 15px 30px black, 20px 30px black, 25px 30px black,
+        5px 25px black, 10px 25px black, 15px 25px black, 20px 25px black, 25px 25px black;
+}
+
+.win98-body {
+    background-color: #c3c3c3;
+    padding: 16px;
+}
+
+/* Media queries */
+@media (max-width: 1200px) {
+    .win98-window-tech { width: 100%; max-width: 750px; left: 0; }
+    .win98-window-other { left: 0; }
+    .win98-window-blurb { left: 0; }
+    #main-window-full { left: 0; }
+}
+
+@media (max-width: 900px) {
+    #main-window-full { zoom: 70%; }
+    #top-row { flex-direction: column; align-items: flex-start; }
+}
+
+@media (max-width: 600px) {
+    #main-window-full { zoom: 50%; }
+    #page-wrapper { padding: 20px 4%; }
+    #other-projects-list { flex-wrap: wrap; }
+}
